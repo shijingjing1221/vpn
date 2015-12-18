@@ -4,13 +4,7 @@
 
 # 1. VPN PPTP Server下载一键安装脚本
 
-wget https://raw.githubusercontent.com/shijingjing1221/vpn/master/centos6_pptpd.sh
-
-运行脚本
-
-chmod +x centos6_pptpd.sh
-
-./centos6_pptpd.sh
+wget -O - https://raw.githubusercontent.com/shijingjing1221/vpn/master/centos6_pptpd.sh | sh
 
 然后等待安装完成后 会自动创建一个随机的用户。完成时，脚本会在屏幕上用绿色的字体打印出用户名和密码。
 
