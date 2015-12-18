@@ -4,7 +4,7 @@
 
 # 1. VPN PPTP Server下载一键安装脚本
 
-wget centos6_pptpd.sh
+wget https://raw.githubusercontent.com/shijingjing1221/vpn/master/centos6_pptpd.sh
 
 运行脚本
 
