@@ -37,7 +37,37 @@ vi /etc/ppp/chap-secrets
   
       1) General->Gateway
       
-      2) Optional->Username && Password
+      2) Optional
+          Username
+          Password
       
-      3) Advanced-->Security and Compressio->"Use Point to Pont encryption(MPPE)"&&"Allow status encryption"
+      3) Advanced
+          Security and Compressio
+            Use Point to Pont encryption(MPPE): checked
+            <strong>Allow status encryption: checked
+      
+# 4. Fedora 上的VPN客户端设置
+
+  a. 搜索Network
+  
+  b. 点击按钮+ -> VPN -> PPTP
+  
+  c. 填写以下选项
+  
+    name：
+    
+    Option：
+    
+        User name
+        
+        Password
+        
+    Advanced：
+    
+      Security and COmpression
+      
+        Use Point-to-Point encryption(MPPE): checked
+        
+        Allow stateful encryption: checked
+        
 
