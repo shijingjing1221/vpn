@@ -43,8 +43,8 @@ vi /etc/ppp/chap-secrets
       
       3) Advanced
           Security and Compressio
-            Use Point to Pont encryption(MPPE): checked
-            <strong>Allow status encryption: checked
+            -> Use Point to Pont encryption(MPPE): checked
+            -> Allow status encryption: checked
       
 # 4. Fedora 上的VPN客户端设置
 
@@ -54,20 +54,18 @@ vi /etc/ppp/chap-secrets
   
   c. 填写以下选项
   
-    name：
+      1）name：
     
-    Option：
-    
-        User name
+      2) Option：
+          User name
+          Password
         
-        Password
+      3) Advanced：
+          Security and COmpression
+              -> Use Point-to-Point encryption(MPPE): checked
+              -> Allow stateful encryption: checked
         
-    Advanced：
-    
-      Security and COmpression
-      
-        Use Point-to-Point encryption(MPPE): checked
-        
-        Allow stateful encryption: checked
-        
-
+# 5. Windows VPN客户端的设置
+  参考下面的连接
+  
+  http://service.njaf.gov.cn/26970/26971/201510/t20151024_3621861.html
