@@ -1,4 +1,3 @@
-在CentOS 6 （32/64位）安装VPN PPTP Server
 
 准备步骤： yum update -y
 
